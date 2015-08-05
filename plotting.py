@@ -50,7 +50,7 @@ output_file("cgpa.html")
 mscatter(p, xdata, ydata, branch,colors,"circle",source)
 p.plot_height=600
 p.plot_width=1200
-p.background_fill = "#EEEEEE"
+p.background_fill = "snow"
 p.xaxis.axis_label = "Index according to Registration No."
 p.yaxis.axis_label = "CGPA"
 p.yaxis.major_label_orientation = "vertical"
