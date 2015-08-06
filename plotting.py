@@ -16,7 +16,7 @@ def formData():
     return ranking
 def mscatter(p, x, y, branch, c,typestr,source):
     p.scatter(x, y, marker=typestr,
-            line_color="#6666ee", fill_color=c, fill_alpha=0.5, size=y*2,source = source)
+            line_color='black', fill_color=c, fill_alpha=0.5, size=y*2,source = source)
 
 ranking = formData()
 data_to_plot = ranking.grade
