@@ -1,3 +1,5 @@
+Demo: http://eldor4do.github.io/smit-results
+
 This python script creates a scatter plot from the data given in the "grade.txt" file.
 The file contains a list of students' registration numbers, cgpa, name and branch.
 The scatter plot shows student' cgpa with respect to the index, with the points being colour coded according to the student's branch.
